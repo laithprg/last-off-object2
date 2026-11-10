@@ -1,0 +1,1084 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(newbackground.png) ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.sound-button{
+    position:fixed;
+    top:20px;
+    right:40px;
+    z-index: 1000;
+    background: transparent;
+    border:none;
+    cursor:pointer;
+    font-size: 40px;
+}
+
+.container1{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:47rem;
+    justify-content: space-between;
+}
+
+main{
+    background-color:#100A38;
+    padding:30px;
+    width:45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 14px;
+    border:4px solid #352078;
+    height:25rem;
+    overflow-y:auto;
+    scrollbar-gutter: stable;
+    gap:15px;
+}
+
+.title-addplayer{
+    color:#F8F5FF;
+    font-size: 70px;
+}
+
+.title-addplayer span{
+    color:#C77DFF;
+}
+
+.addplayer-button{
+    padding:13px;
+    width:44rem;
+    font-size: 27px;
+    border-radius: 10px;
+    border:2px dashed #8B2CFF ;
+    color:#C77DFF;
+    background: #100A38;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.addplayer-button:hover{
+  background-color:#25075E;
+
+}
+
+.addplayer-div{
+    display: flex;
+    background-color:#100A38;
+    padding:5px;
+    width:37rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border:2px solid #352078;
+
+}
+
+.addplayer-div span{
+    color:#F8F5FF;
+    text-align: center;
+    background-color: #7B2CFF;
+    padding:15px;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+
+}
+
+.inputtext-player{
+    padding :17px;
+    width:30rem;
+    background-color: #080725;
+    border:none;
+    outline: none;
+    border-radius: 7px;
+    color:#F8F5FF;
+    font-size: 20px;
+
+}
+
+.inputtext-player:focus{
+ outline:1px solid #8B2CFF;
+
+}
+
+.deleteplayer-button{
+    border:none;
+    background-color:#100A38;
+    border-radius: 7px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+footer{
+    width:30rem;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:110px;
+    color:#F8F5FF;
+    gap:10px;
+}
+
+.playerscounter-div{
+    font-size: 26px;
+    padding:4px;
+    width:10rem;
+}
+
+.continue-button,.keepgo-button,.keepgo-button2,.beforeoffobject-button,.resutls-button,.playagain-button,.newgame-button{
+    padding:15px;
+    font-size:27px;
+    font-weight: 600;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    width:19rem;
+    background-color: #7B2CFF;
+    box-shadow: 0 7px 0 #4935FF;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.continue-button:hover,.keepgo-button:hover,.keepgo-button2:hover,.beforeoffobject-button:hover,.resutls-button:hover,.playagain-button:hover,.newgame-button:hover{
+    scale: 1.03;
+}
+
+.chooseblyer-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2,.container3{
+    margin-top:9rem;
+    height:30rem;
+    width:40rem;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content:center;
+}
+
+.container2 h1{
+    font-size: 50px;
+    text-align: center;
+    color:#F8F5FF;
+}
+
+.container2 span{
+    color:#C77DFF;
+}
+
+.container3 h1, .container3 p{
+    font-size: 50px;
+    text-align: center;
+    color:#F8F5FF;
+}
+
+.choise-span{
+    color:#C77DFF;
+}
+
+.animal-name{
+    color:#E040FB;
+}
+
+.containerbefore-offobject{
+    margin-top:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    gap:20px;   
+}
+
+.containerbefore-offobject h1{
+  font-size: 50px;
+  color:#F8F5FF;
+    
+
+}
+
+.mainoffobject-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+
+.offobject-namedisplay{
+margin-top:20rem;
+padding:10px;
+font-size:40px;
+}
+
+.vote-h1{
+    text-align: center;
+    color:#F8F5FF;
+}
+
+.startvote-container{
+    margin-top:15rem;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    align-items: center;
+    min-width:29rem;
+    min-height: 20rem;
+    padding:20px;
+
+}
+
+.startvote-container h1{
+  color:#F8F5FF;
+  font-size: 50px;
+}
+
+.startvote-container span{
+    color:#C77DFF;
+}
+
+.buttonsvote-div{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+
+.startvote-container button{
+    padding:20px;
+    width:20rem;
+    border-radius: 9px;
+    border: none;
+    outline: 1px solid #8B2CFF;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#F8F5FF;
+
+}
+
+.startvote-container button:hover{
+    background-color: #DDD4F5;
+}
+
+.resutls-container{
+    padding:40px;
+    margin-top:13rem;
+    width:40rem;
+    height:25rem;
+    background-color:#160D42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;  
+    border-radius: 15px;  
+    border: 1px solid #49318A;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    
+}
+
+.resutls-container h1{
+    color:#DDD4F5;
+    font-size: 45px;
+}
+
+.result-display{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    background-color:#100A38;
+    border:4px solid #352078;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:20px;
+    min-width:30rem;
+    height:14rem;
+    overflow-y:auto;
+    scrollbar-gutter: stable;
+    
+}
+
+.result-display p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:20rem;
+    font-size:50px;
+    color:#F8F5FF;
+
+}
+
+.result-display span{
+    color:#E040FB;
+}
+
+.returnresults-div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media screen and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        width: 100%;
+        min-height: 100%;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        min-height: 100dvh;
+
+        margin: 0;
+        padding: 20px 14px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        overflow-x: hidden;
+
+        background-image: url("newbackground.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #07051F;
+    }
+
+
+    /* =====================================
+       SOUND BUTTON
+    ===================================== */
+
+    .sound-button {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+
+        z-index: 1000;
+
+        background: transparent;
+        border: none;
+        cursor: pointer;
+
+        font-size: 40px;
+    }
+
+
+    /* =====================================
+       ADD PLAYERS
+    ===================================== */
+
+    .container1 {
+        width: 100%;
+        max-width: 430px;
+
+        height: auto;
+        margin-top: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        gap: 15px;
+    }
+
+    .title-addplayer {
+        width: 100%;
+
+        font-size: clamp(25px, 7vw, 36px);
+        line-height: 1.5;
+
+        text-align: center;
+    }
+
+    .chooseblyer-form {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0;
+    }
+
+    main {
+        width: 100%;
+
+        height: 38vh;
+        height: 38dvh;
+
+        min-height: 220px;
+        max-height: 320px;
+
+        padding: 12px;
+        gap: 12px;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        border-width: 3px;
+    }
+
+    .addplayer-button {
+        width: 100%;
+
+        min-height: 48px;
+        flex-shrink: 0;
+
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .addplayer-div {
+        width: 100%;
+
+        min-height: 55px;
+        flex-shrink: 0;
+
+        padding: 5px;
+        gap: 6px;
+    }
+
+    .addplayer-div span {
+        padding: 10px;
+        font-size: 14px;
+
+        flex-shrink: 0;
+    }
+
+    .inputtext-player {
+        width: 100%;
+        min-width: 0;
+        flex: 1;
+
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+
+    .deleteplayer-button {
+        flex-shrink: 0;
+        font-size: 20px;
+    }
+
+
+    /* =====================================
+       FOOTER
+    ===================================== */
+
+    footer {
+        width: 100%;
+        height: auto;
+
+        padding: 5px 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+    }
+
+    .playerscounter-div {
+        width: auto;
+
+        font-size: 19px;
+        text-align: center;
+
+        padding: 4px;
+    }
+
+    .continue-button,
+    .keepgo-button,
+    .keepgo-button2,
+    .beforeoffobject-button,
+    .resutls-button {
+
+        width: 100%;
+        max-width: 290px;
+
+        min-height: 50px;
+
+        padding: 12px;
+        font-size: 21px;
+
+        border-radius: 16px;
+    }
+
+
+    /* =====================================
+       PLAYER HANDOVER
+    ===================================== */
+
+    .container2,
+    .container3 {
+
+        width: 100%;
+        max-width: 430px;
+
+        min-width: 0;
+
+        min-height: 65vh;
+        min-height: 65dvh;
+
+        height: auto;
+        margin: 0;
+
+        padding: 20px 12px;
+
+        gap: 22px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container2 h1,
+    .container3 h1 {
+
+        width: 100%;
+        margin: 0;
+
+        font-size: clamp(27px, 7.5vw, 38px);
+        line-height: 1.7;
+
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    .container3 p {
+
+        width: 100%;
+        margin: 0;
+
+        font-size: clamp(23px, 6.5vw, 32px);
+        line-height: 1.7;
+
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    .choise-span,
+    .animal-name {
+        overflow-wrap: anywhere;
+    }
+
+
+    /* =====================================
+       VOTING
+    ===================================== */
+
+    .startvote-container {
+
+        width: 100%;
+        max-width: 430px;
+
+        min-width: 0;
+        min-height: 0;
+        height: auto;
+
+        margin: 0;
+        padding: 15px 8px;
+
+        gap: 20px;
+    }
+
+    .startvote-container h1 {
+
+        width: 100%;
+        margin: 0;
+
+        font-size: clamp(27px, 7vw, 37px);
+        line-height: 1.6;
+
+        text-align: center;
+    }
+
+    .buttonsvote-div {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 8px;
+    }
+
+    .startvote-container button {
+
+        width: 100%;
+        max-width: 310px;
+
+        min-height: 48px;
+
+        padding: 11px;
+        font-size: 19px;
+    }
+
+
+    /* =====================================
+       BEFORE REVEAL
+    ===================================== */
+
+    .containerbefore-offobject {
+
+        width: 100%;
+        max-width: 430px;
+
+        min-height: 55vh;
+        min-height: 55dvh;
+
+        height: auto;
+        margin: 0;
+
+        padding: 20px 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 25px;
+
+        text-align: center;
+    }
+
+    .containerbefore-offobject h1 {
+
+        width: 100%;
+        margin: 0;
+
+        font-size: clamp(27px, 7.5vw, 38px);
+        line-height: 1.7;
+
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* =====================================
+       OFF OBJECT REVEAL
+       NAME FIXED IN CENTER
+    ===================================== */
+
+    .mainoffobject-container {
+
+        position: relative;
+
+        width: 100%;
+        max-width: 430px;
+        min-width: 0;
+
+        height: 70dvh;
+        min-height: 70dvh;
+
+        margin: 0;
+        padding: 20px 12px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* الاسم ثابت بمنتصف الشاشة */
+
+    .offobject-namedisplay {
+
+        position: absolute;
+
+        top: 50%;
+        left: 0;
+
+        transform: translateY(-50%);
+
+        width: 100%;
+        min-height: 100px;
+
+        margin: 0 !important;
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vote-h1 {
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        font-size: clamp(32px, 9vw, 46px);
+        line-height: 1.6;
+
+        text-align: center;
+        color: #F8F5FF;
+
+        overflow-wrap: anywhere;
+    }
+
+    /* الزر يظهر تحت الاسم */
+
+    .mainoffobject-container button {
+
+        position: absolute;
+
+        top: calc(50% + 85px);
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        width: 100%;
+        max-width: 290px;
+
+        min-height: 50px;
+
+        padding: 12px;
+        font-size: 21px;
+
+        border-radius: 16px;
+    }
+
+
+    /* =====================================
+       RESULTS
+    ===================================== */
+
+    .resutls-container {
+
+        width: 100%;
+        max-width: 430px;
+        min-width: 0;
+
+        height: auto;
+        min-height: 0;
+
+        max-height: 75vh;
+        max-height: 75dvh;
+
+        margin: 0;
+
+        padding: 20px 12px;
+
+        background-color: #160D42;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 18px;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        border-radius: 15px;
+        border: 3px solid #49318A;
+
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+        scrollbar-width: thin;
+        scrollbar-color: #7B2CFF transparent;
+    }
+
+    .resutls-container h1 {
+
+        width: 100%;
+        margin: 0;
+
+        color: #DDD4F5;
+
+        font-size: clamp(27px, 7vw, 38px);
+        text-align: center;
+    }
+
+    .result-display {
+
+        width: 100%;
+        min-width: 0;
+
+        height: auto;
+        min-height: 140px;
+
+        max-height: 40dvh;
+
+        padding: 12px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 12px;
+
+        background-color: #100A38;
+
+        border: 3px solid #352078;
+        border-radius: 10px;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        scrollbar-width: thin;
+        scrollbar-color: #7B2CFF transparent;
+    }
+
+    .result-display p {
+
+        width: 100%;
+        margin: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 10px;
+
+        color: #F8F5FF;
+
+        font-size: clamp(20px, 5.5vw, 25px);
+        line-height: 1.5;
+
+        overflow-wrap: anywhere;
+    }
+
+    .result-display span {
+        color: #E040FB;
+    }
+
+
+    /* =====================================
+       RESULTS BUTTONS
+    ===================================== */
+
+    .returnresults-div {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 12px;
+    }
+
+    .returnresults-div button {
+
+        width: auto;
+        min-width: 0;
+        max-width: none;
+
+        flex: 1;
+
+        min-height: 48px;
+
+        padding: 10px 6px;
+
+        font-size: clamp(14px, 4vw, 18px);
+
+        border-radius: 12px;
+    }
+
+
+    /* =====================================
+       HIDDEN
+    ===================================== */
+
+    .hidden {
+        display: none !important;
+    }
+
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media screen and (max-width: 380px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .sound-button {
+        top: 20px;
+        right: 40px;
+        font-size: 40px;
+    }
+
+    .title-addplayer {
+        font-size: 25px;
+    }
+
+    main {
+        min-height: 210px;
+        padding: 9px;
+    }
+
+    .addplayer-div span {
+        padding: 9px;
+    }
+
+    .inputtext-player {
+        font-size: 15px;
+    }
+
+    .container2 h1,
+    .container3 h1 {
+        font-size: 27px;
+    }
+
+    .startvote-container button {
+        font-size: 17px;
+    }
+
+    .vote-h1 {
+        font-size: 32px;
+    }
+
+    .resutls-container {
+        width: 100%;
+        max-width: 340px;
+
+        padding: 14px 10px;
+        gap: 12px;
+    }
+
+    .result-display {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .result-display p {
+        font-size: 20px;
+    }
+
+    .returnresults-div {
+        gap: 8px;
+    }
+
+    .returnresults-div button {
+        font-size: 14px;
+        padding: 9px 4px;
+    }
+
+}
+
+
+/* =========================================
+   SHORT SCREENS
+========================================= */
+
+@media screen and (max-height: 650px) and (max-width: 600px) {
+
+    body {
+        justify-content: flex-start;
+        padding-top: 15px;
+    }
+
+    main {
+        height: 35dvh;
+        min-height: 180px;
+    }
+
+    .container2,
+    .container3 {
+        min-height: 75dvh;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .containerbefore-offobject {
+        min-height: 65dvh;
+    }
+
+    .mainoffobject-container {
+        height: 70dvh;
+        min-height: 70dvh;
+        justify-content: center;
+    }
+
+    .startvote-container {
+        gap: 12px;
+    }
+
+    .resutls-container {
+        max-height: 85dvh;
+    }
+
+}
